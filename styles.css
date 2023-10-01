@@ -1,0 +1,113 @@
+* {
+    text-decoration: none;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-image: url('img/wallpaper.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.container .img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+} /* position de la balise .img afin de placer l'image dans cette div*/
+
+.container .img img{
+    height: 600px;
+    width: 600px;
+}
+
+.container .img img:hover {
+    height: 800px;
+    width: 800px;
+    transition: 2s;
+}
+
+.container .text {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.container .text .citation {
+    position: relative;
+    top: 300px;
+    right: 680px;
+    font-size: 30px;
+    color: rgb(0, 245, 212);
+}
+
+.container .text .title {
+    position: relative;
+    top: 150px;
+    left: 700px;
+    font-size: 80px;
+    color: rgb(0, 116, 170);
+}
+
+.container .text .button {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    background-color: rgb(1, 20, 54);
+    border-radius: 50px;
+    height: 100px;
+    width: 900px;
+}
+
+.container .text .button:hover {
+    background-color: rgb(5, 0, 70);
+    transition: 0.7s;
+}
+
+.container .text .button a {
+    margin: 24px;
+    padding: 20px;
+    background-color: rgb(3, 35, 94);
+    color: white;
+    border-radius: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .text .button a:hover {
+    background-color: black;
+    transition: 0.7s;
+}
+
+.container .information {
+    position: absolute;
+    top: 1050px;
+    color: white;
+}
+
+.container .information div {
+    margin-left: 500px;
+    margin-bottom: 1000px;
+}
+
+.container .information div h2 {
+    font-size: 70px;
+    color: rgba(0, 61, 173, 0.671);
+}
+
+.container .information div h4 {
+    font-size: 30px;
+    color: rgb(123, 169, 170);
+}
+
+.container .information div:hover {
+    background-color: rgba(5, 25, 141, 0.267);
+    transition: 1.5s;
+    border-radius: 70px;
+    margin: 20px;
+    opacity: 100%;
+}
